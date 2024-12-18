@@ -1,12 +1,22 @@
-## Hi there 👋
+# Welcome to CheeziCrew!
 
-<!--
+We specialize in scripts for handling bulk operations. Our tools are designed to make managing multiple repositories a breeze.
 
-**Here are some ideas to get you started:**
+## Our Tools
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### Swissgit
+Swissgit is the coolest, jankiest Go solution for:
+- Dishing out pull requests
+- Making commits
+- Handling git status in hundreds of repos with just a few simple commands
+
+Swissgit comes compiled in binaries for all platforms.
+
+### Changelogmaker
+Changelogmaker is an ultra-specific, janky Python tool that compares two `openapi.yml` files. It also comes with compiled binaries for Windows and Mac.
+
+## Contributions
+We love contributions, big or small! Feedback is always welcome.
+
+## Meet Theo
+Theo the cat is our mascot. He loves cuddles and hates it when his food is late.
