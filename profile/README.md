@@ -4,7 +4,7 @@ We specialize in scripts for handling bulk operations. Our tools are designed to
 
 ## 🛠️ Our Tools
 
-### 🧰 Swissgit
+### 🧰 [Swissgit](https://github.com/CheeziCrew/Swissgit)
 Swissgit is the coolest, jankiest Go solution for:
 - 📦 Dishing out pull requests
 - ✍️ Making commits
@@ -12,7 +12,7 @@ Swissgit is the coolest, jankiest Go solution for:
 
 Swissgit comes compiled in binaries for all platforms.
 
-### 📝 Changelogmaker
+### 📝 [Changelogmaker](https://github.com/CheeziCrew/changelogmaker)
 Changelogmaker is an ultra-specific, janky Python tool that compares two `openapi.yml` files. It also comes with compiled binaries for Windows and Mac.
 
 ## ❤️ Contributions
