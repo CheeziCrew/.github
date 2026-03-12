@@ -1,22 +1,23 @@
-# 🎉 Welcome to CheeziCrew! 🎉
+# CheeziCrew
 
-We specialize in scripts for handling bulk operations. Our tools are designed to make managing multiple repositories a breeze. 🚀
+Swiss-themed dev tools built with Go and [bubbletea](https://github.com/charmbracelet/bubbletea). Terminal UIs for wrangling repos, services, and dependencies.
 
-## 🛠️ Our Tools
+## Tools
 
-### 🧰 [Swissgit](https://github.com/CheeziCrew/Swissgit)
-Swissgit is the coolest, jankiest Go solution for:
-- 📦 Dishing out pull requests
-- ✍️ Making commits
-- ⚙️ Handling git status in hundreds of repos with just a few simple commands
+### [Swissgit](https://github.com/CheeziCrew/Swissgit)
+Multi-repo Git automation TUI. Bulk pulls, commits, PRs, and status across hundreds of repos.
 
-Swissgit comes compiled in binaries for all platforms.
+### [Fondue](https://github.com/CheeziCrew/Fondue)
+Microservice dependency graph explorer. Interactive TUI for visualizing service integrations, version staleness, and dependency graphs.
 
-### 📝 [Changelogmaker](https://github.com/CheeziCrew/changelogmaker)
-Changelogmaker is an ultra-specific, janky Python tool that compares two `openapi.yml` files. It also comes with compiled binaries for Windows and Mac.
+### [Raclette](https://github.com/CheeziCrew/Raclette)
+Melt through your dept44 repos. Bulk Maven operations with a TUI.
 
-## ❤️ Contributions
-We love contributions, big or small! Feedback is always welcome. 👍
+### [Curd](https://github.com/CheeziCrew/Curd)
+Shared TUI component library — the glue that holds the cheese together.
 
-## 🐱 Meet Theo
-Theo the cat is our mascot. He loves cuddles and hates it when his food is late. 🐾
+### [Changelogmaker](https://github.com/CheeziCrew/changelogmaker)
+Generate API changelogs by diffing OpenAPI specs between branches.
+
+## Meet Theo
+Theo the cat is our mascot. He loves cuddles and hates it when his food is late.
