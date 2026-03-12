@@ -1,0 +1,34 @@
+name: Release Library
+
+on:
+  workflow_call:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: stable
+
+      - name: Test
+        run: go test ./...
+
+      - name: Bump patch version and tag
+        run: |
+          latest=$(git tag --sort=-version:refname | head -n 1)
+          latest=${latest:-v0.0.0}
+          version=${latest#v}
+          IFS='.' read -r major minor patch <<< "$version"
+          new_tag="v${major}.${minor}.$((patch + 1))"
+          echo "Tagging $new_tag"
+          git tag "$new_tag"
+          git push origin "$new_tag"
