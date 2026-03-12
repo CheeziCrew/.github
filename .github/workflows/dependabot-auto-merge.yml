@@ -2,6 +2,9 @@ name: Dependabot Auto Merge
 
 on:
   workflow_call:
+    secrets:
+      APPROVE_TOKEN:
+        required: true
 
 jobs:
   auto-merge:
