@@ -16,8 +16,8 @@ Melt through your dept44 repos. Bulk Maven operations with a TUI.
 ### [Curd](https://github.com/CheeziCrew/Curd)
 Shared TUI component library — the glue that holds the cheese together.
 
-### [Changelogmaker](https://github.com/CheeziCrew/changelogmaker)
-Generate API changelogs by diffing OpenAPI specs between branches.
+### [Gruyere](https://github.com/CheeziCrew/Gruyere)
+Age your APIs gracefully. Interactive TUI for generating API changelogs.
 
 ## Meet Theo
 Theo the cat is our mascot. He loves cuddles and hates it when his food is late.
